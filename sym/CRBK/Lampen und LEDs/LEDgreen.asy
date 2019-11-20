@@ -16,7 +16,7 @@ LINE Normal 16 44 16 20
 LINE Normal 16 44 16 44
 WINDOW 0 24 0 Left 2
 WINDOW 3 24 72 Left 2
-SYMATTR Value LEDgreen
+SYMATTR Value Grün
 SYMATTR Prefix X
 SYMATTR Description Light Emitting Diode
 SYMATTR ModelFile CRBK/LEDgreen.sub

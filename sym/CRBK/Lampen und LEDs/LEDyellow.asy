@@ -15,7 +15,7 @@ LINE Normal 40 43 45 43
 LINE Normal 16 44 16 20
 WINDOW 0 24 0 Left 2
 WINDOW 3 24 72 Left 2
-SYMATTR Value LEDyellow
+SYMATTR Value Gelb
 SYMATTR Prefix X
 SYMATTR Description Light Emitting Diode
 SYMATTR ModelFile CRBK/LEDyellow.sub
