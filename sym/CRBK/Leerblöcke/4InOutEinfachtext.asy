@@ -1,0 +1,25 @@
+Version 4
+SymbolType CELL
+RECTANGLE Normal 112 158 -63 32
+WINDOW 0 -60 16 Left 2
+WINDOW 3 26 91 Center 2
+SYMATTR Value Text
+SYMATTR Description 8-bit parallel-in/serial-out shift register
+SYMATTR SpiceLine VCC=5  SPEED=1.0  TRIPDT=1e-9
+SYMATTR Prefix X
+SYMATTR SpiceModel VCC 0
+PIN -64 48 NONE 2
+PINATTR PinName D13
+PINATTR SpiceOrder 1
+PIN 112 96 NONE 2
+PINATTR PinName D12
+PINATTR SpiceOrder 17
+PIN -64 80 NONE 2
+PINATTR PinName D14
+PINATTR SpiceOrder 2
+PIN -64 112 NONE 2
+PINATTR PinName D15
+PINATTR SpiceOrder 3
+PIN -64 144 NONE 2
+PINATTR PinName D16
+PINATTR SpiceOrder 4

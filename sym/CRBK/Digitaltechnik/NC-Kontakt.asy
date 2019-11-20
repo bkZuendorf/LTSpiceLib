@@ -1,0 +1,22 @@
+Version 4
+SymbolType CELL
+RECTANGLE Normal 159 197 -62 34
+TEXT 94 115 Left 2 OUT
+TEXT -49 160 Left 2 GND
+TEXT -49 64 Left 2 VCC
+WINDOW 0 -60 16 Left 2
+WINDOW 3 -56 217 Left 2
+SYMATTR Value NC-Kontakt
+SYMATTR Description 8-bit parallel-in/serial-out shift register
+SYMATTR SpiceLine VCC=5  SPEED=1.0  TRIPDT=1e-9
+SYMATTR Prefix X
+SYMATTR SpiceModel VCC 0
+PIN -64 64 NONE 2
+PINATTR PinName D8
+PINATTR SpiceOrder 13
+PIN -64 160 NONE 2
+PINATTR PinName D11
+PINATTR SpiceOrder 16
+PIN 160 112 NONE 2
+PINATTR PinName D12
+PINATTR SpiceOrder 17

@@ -1,0 +1,36 @@
+Version 4
+SymbolType CELL
+LINE Normal -17 16 -10 16
+LINE Normal -21 96 -13 96
+LINE Normal -17 100 -17 92
+LINE Normal -3 -39 -19 -47
+LINE Normal -19 -29 -3 -39
+LINE Normal -19 -47 -19 -29
+LINE Normal 64 16 80 16
+LINE Normal -32 16 -48 16
+LINE Normal -32 96 -48 96
+LINE Normal -32 96 -32 96
+LINE Normal 16 112 16 128
+LINE Normal 16 -80 16 -65
+RECTANGLE Normal 64 -65 -32 112
+CIRCLE Normal 29 -45 41 -33
+CIRCLE Normal 53 -45 41 -33
+SYMATTR SpiceModel LM358
+SYMATTR Prefix X
+SYMATTR ModelFile CRBK/OPs/LM358_ST.MOD
+SYMATTR Description Subcircuit for LM358 from ST(SGS-Thompson)
+PIN -48 16 NONE 0
+PINATTR PinName In-
+PINATTR SpiceOrder 1
+PIN 80 16 NONE 0
+PINATTR PinName OUT
+PINATTR SpiceOrder 2
+PIN -48 96 NONE 0
+PINATTR PinName In+
+PINATTR SpiceOrder 3
+PIN 16 -80 NONE 0
+PINATTR PinName V+
+PINATTR SpiceOrder 4
+PIN 16 128 NONE 0
+PINATTR PinName V-
+PINATTR SpiceOrder 5

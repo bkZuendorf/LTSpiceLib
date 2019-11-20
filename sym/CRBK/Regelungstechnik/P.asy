@@ -1,0 +1,21 @@
+Version 4
+SymbolType CELL
+LINE Normal -96 0 -112 0
+LINE Normal 128 0 144 0
+LINE Normal -74 -37 -74 22
+LINE Normal 47 22 -74 22
+LINE Normal 9 -31 -74 21
+RECTANGLE Normal 128 48 -96 -49
+WINDOW 3 128 -65 Right 2
+WINDOW 0 117 31 Right 2
+WINDOW 38 98 -22 Center 2
+SYMATTR Value KP=1
+SYMATTR SpiceModel P
+SYMATTR Prefix X
+SYMATTR ModelFile CRBK/Regelungstechnik/RT_SZ.sub
+PIN -112 0 NONE 8
+PINATTR PinName 1
+PINATTR SpiceOrder 1
+PIN 144 0 NONE 8
+PINATTR PinName 2
+PINATTR SpiceOrder 2

@@ -1,0 +1,19 @@
+Version 4
+SymbolType CELL
+LINE Normal 22 26 0 48
+LINE Normal -23 71 0 48
+LINE Normal 22 70 0 48
+LINE Normal -22 26 0 48
+LINE Normal -48 48 -31 48
+LINE Normal 32 48 48 48
+CIRCLE Normal 32 80 -32 16
+WINDOW 0 -36 73 Right 2
+SYMATTR SpiceModel Lampe
+SYMATTR Prefix E
+SYMATTR ModelFile CRBK\Lampen\Lamp.sub
+PIN 48 48 NONE 0
+PINATTR PinName A
+PINATTR SpiceOrder 1
+PIN -48 48 NONE 0
+PINATTR PinName B
+PINATTR SpiceOrder 2

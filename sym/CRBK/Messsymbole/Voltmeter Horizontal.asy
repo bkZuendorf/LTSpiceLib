@@ -1,0 +1,16 @@
+Version 4
+SymbolType CELL
+LINE Normal 64 48 48 48
+LINE Normal -31 48 -16 48
+CIRCLE Normal 48 80 -16 16
+TEXT 17 49 Center 2 V
+WINDOW 0 54 26 Left 2
+SYMATTR Value 1MEG
+SYMATTR Prefix R
+SYMATTR Description Voltmeter
+PIN -32 48 NONE 0
+PINATTR PinName A
+PINATTR SpiceOrder 1
+PIN 64 48 NONE 0
+PINATTR PinName B
+PINATTR SpiceOrder 2

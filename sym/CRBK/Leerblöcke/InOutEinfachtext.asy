@@ -1,0 +1,11 @@
+Version 4
+SymbolType CELL
+LINE Normal -91 80 -63 80
+LINE Normal 111 80 139 80
+RECTANGLE Normal 111 127 -63 33
+WINDOW 0 -60 16 Left 2
+WINDOW 3 22 78 Center 2
+SYMATTR Value Sensor
+SYMATTR SpiceLine VCC=5  SPEED=1.0  TRIPDT=1e-9
+SYMATTR Prefix X
+SYMATTR SpiceModel VCC 0

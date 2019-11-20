@@ -1,0 +1,16 @@
+Version 4
+SymbolType CELL
+LINE Normal 64 48 48 48
+LINE Normal -32 48 -15 48
+CIRCLE Normal 48 80 -15 16
+TEXT 17 47 Center 2 A
+WINDOW 0 54 12 Left 2
+SYMATTR Value 1n
+SYMATTR Prefix R
+SYMATTR Description Amperemeter
+PIN 64 48 NONE 0
+PINATTR PinName A
+PINATTR SpiceOrder 1
+PIN -32 48 NONE 0
+PINATTR PinName B
+PINATTR SpiceOrder 2

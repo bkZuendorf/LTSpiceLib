@@ -1,0 +1,29 @@
+Version 4
+SymbolType CELL
+LINE Normal 16 88 16 96
+LINE Normal 16 16 16 24
+LINE Normal 27 24 5 24
+LINE Normal 5 88 5 24
+LINE Normal 5 88 27 88
+LINE Normal 27 24 27 88
+LINE Normal -5 69 -5 81
+LINE Normal 43 38 -5 69
+LINE Normal 54 30 54 9
+LINE Normal 51 22 54 30
+LINE Normal 54 29 51 22
+LINE Normal 57 22 54 29
+LINE Normal 43 9 43 30
+LINE Normal 46 17 43 9
+LINE Normal 43 10 46 17
+LINE Normal 40 17 43 10
+WINDOW 0 31 55 Left 2
+WINDOW 3 31 76 Left 2
+SYMATTR Value R
+SYMATTR Prefix R
+SYMATTR Description A Resistor(European style graphic)
+PIN 16 16 NONE 0
+PINATTR PinName A
+PINATTR SpiceOrder 1
+PIN 16 96 NONE 0
+PINATTR PinName B
+PINATTR SpiceOrder 2

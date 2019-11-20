@@ -1,0 +1,16 @@
+Version 4
+SymbolType CELL
+LINE Normal -14 32 -31 32
+LINE Normal -14 32 -14 32
+LINE Normal 30 32 30 11
+LINE Normal 35 14 -14 32
+LINE Normal 30 32 48 32
+WINDOW 0 37 1 Left 2
+SYMATTR Prefix S
+SYMATTR Description Schalter
+PIN 48 32 NONE 0
+PINATTR PinName A
+PINATTR SpiceOrder 1
+PIN -32 32 NONE 0
+PINATTR PinName B
+PINATTR SpiceOrder 2

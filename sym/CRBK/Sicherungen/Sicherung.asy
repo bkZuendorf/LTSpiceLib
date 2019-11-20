@@ -1,0 +1,15 @@
+Version 4
+SymbolType CELL
+LINE Normal 33 32 48 32
+LINE Normal -14 32 -31 32
+LINE Normal -14 32 -14 32
+LINE Normal -14 32 33 32
+RECTANGLE Normal 33 24 -14 40
+SYMATTR Prefix R
+SYMATTR Value 1m
+PIN 48 32 NONE 0
+PINATTR PinName IN2
+PINATTR SpiceOrder 1
+PIN -32 32 NONE 0
+PINATTR PinName IN1
+PINATTR SpiceOrder 2
