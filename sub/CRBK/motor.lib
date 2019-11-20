@@ -1,0 +1,19 @@
+* Motors
+*-------------------------------------------------------------------
+.SUBCKT MOTOR_SIMPLE  coilp coilm  
++ VNOM=5 RCOIL=50 RON=0.1 ROFF=1G
++ TON=5m VON=0.7 VOFF=0.3 
++ LCOIL=0.1 CCOIL=1f 
++ COFF=1f CCOUP=1f Lser=1p 
+*
+.PARAM INOM=VNOM/RCOIL
+.PARAM VT=(VON+VOFF)/2
+.PARAM VH=(VON-VOFF)/2
+.PARAM C1=-0.45*0.001*TON/log(1-VON)
+.PARAM C2=C1
+*
+LCoil coilp 1 {LCOIL}
+RCoil 1 2 {RCOIL}
+VCoil 2 coilm 0
+CCoil coilp coilm {CCOIL}
+.ENDS

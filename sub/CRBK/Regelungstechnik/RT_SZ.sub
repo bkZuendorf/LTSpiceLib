@@ -1,0 +1,15 @@
+* RT_SZ.sub
+*
+
+.subckt P 1 2
+R1 0 1 1MEG
+E1 0 2 0 1 {KP}
+.end P
+
+.subckt PT1 1 2
+R1 0 1 1MEG
+E1 0 N001 1 0 {KP}
+R2 N001 N002 {T1}
+C1 N002 0 1
+E2 0 2 N002 0 1
+.end PT1
