@@ -18,7 +18,7 @@ aus:
 git init
 git remote add origin https://github.com/bkZuendorf/LTSpiceLib.git
 git fetch origin
-git checkout origin/master
+git checkout origin/master -f
 ```
 
 Aktualisiert werden kann dann das Verzeichnis durch Ausführen des Befehls
