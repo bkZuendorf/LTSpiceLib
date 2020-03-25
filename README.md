@@ -6,12 +6,12 @@ Mit der LTSpiceLib werden Bibliothektsergänzungen für das Simulationsprogramm 
 
 ### Variante A - kopieren
 Lade das gesamte Paket herunter und überschreibe einen Teil der Inhalte der LTSpice Bibliothek im Standardverzeichnis von LTSpice
-**C:\Users\** *benutzer* **\Documents\LTspiceXVII\lib**
+**C:\Users\\** *benutzer* **\Documents\LTspiceXVII\lib**
 
 ### Variante B - mit Git vebinden
 Installiere git und führe in der Kommandozeile folgende Befehle im Verzeichnis
 
-**C:\Users\** *benutzer* **\Documents\LTspiceXVII\lib**
+**C:\Users\\** *benutzer* **\Documents\LTspiceXVII\lib**
 
 aus:
 ```
