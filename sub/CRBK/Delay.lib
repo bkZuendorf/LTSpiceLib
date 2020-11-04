@@ -10,7 +10,7 @@ E1 1 0 In GND 1
 R1 2 0 1
 T1 1 0 2 0 Td={Tdel} Z0=1
 E2 Out GND 2 0 1
-.ENDS DelayTransmissionline
+.ENDS DelayDefault
 
 .SUBCKT DelayLaplace In Out GND PARAMS: Tdel=1us
 * mathematisch: L(f(t-a))=e^(-a*s)*L(f(t))

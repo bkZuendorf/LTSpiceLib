@@ -1,0 +1,7 @@
+.SUBCKT poti 1 w 2 params: R=10k p=50
+R1 1 w {R1}
+R2 w 2 {R2}
+.param R1=R*(p/100)
+.param R2=R*(1-p/100)
+.backanno
+.ends poti
