@@ -13,14 +13,11 @@ LINE Normal 44 35 49 35
 LINE Normal 43 38 45 43
 LINE Normal 40 43 45 43
 LINE Normal 16 44 16 20
-LINE Normal 16 44 16 44
-WINDOW 0 24 0 Left 2
-WINDOW 3 28 63 Left 1
-SYMATTR Value grün
+WINDOW 0 24 2 Left 2
 SYMATTR Prefix X
-SYMATTR Description Grüne Standard LED
-SYMATTR SpiceModel CRBK/leds.sub
-SYMATTR Value2 StandardGreen
+SYMATTR Description Standard LEDs
+SYMATTR ModelFile CRBK/leds.sub
+SYMATTR SpiceModel StandardRed
 PIN 16 0 NONE 0
 PINATTR PinName +
 PINATTR SpiceOrder 1

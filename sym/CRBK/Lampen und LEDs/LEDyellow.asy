@@ -14,11 +14,12 @@ LINE Normal 43 38 45 43
 LINE Normal 40 43 45 43
 LINE Normal 16 44 16 20
 WINDOW 0 24 0 Left 2
-WINDOW 3 24 72 Left 2
-SYMATTR Value Gelb
+WINDOW 3 28 63 Left 1
+SYMATTR Value gelb
 SYMATTR Prefix X
-SYMATTR Description Light Emitting Diode
-SYMATTR ModelFile CRBK/LEDyellow.sub
+SYMATTR Description Gelbe Standard LED
+SYMATTR SpiceModel CRBK/leds.sub
+SYMATTR Value2 StandardYellow
 PIN 16 0 NONE 0
 PINATTR PinName +
 PINATTR SpiceOrder 1
