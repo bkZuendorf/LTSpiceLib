@@ -12,6 +12,8 @@ Lade das gesamte Paket herunter und überschreibe einen Teil der Inhalte der LTS
 Installiere git und führe in der Kommandozeile folgende Befehle im Verzeichnis
 
 **C:\Users\\** *benutzer* **\Documents\LTspiceXVII\lib**
+oder
+**C:\Users\\OneDrive\\** *benutzer* **\Documents\LTspiceXVII\lib**
 
 aus:
 ```
@@ -19,6 +21,7 @@ git init
 git remote add origin https://github.com/bkZuendorf/LTSpiceLib.git
 git fetch origin
 git checkout origin/master -f
+git switch master
 ```
 
 Aktualisiert werden kann dann das Verzeichnis durch Ausführen des Befehls
