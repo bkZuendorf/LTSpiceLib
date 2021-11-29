@@ -13,12 +13,12 @@ LINE Normal 44 35 49 35
 LINE Normal 43 38 45 43
 LINE Normal 40 43 45 43
 LINE Normal 16 44 16 20
-WINDOW 0 16 0 Left 2
-WINDOW 3 24 72 Left 2
-SYMATTR Value Rot
+WINDOW 0 35 5 Left 2
+WINDOW 38 37 58 Left 1
+SYMATTR SpiceModel Rot
 SYMATTR Prefix X
 SYMATTR Description Light Emitting Diode
-SYMATTR ModelFile CRBK/LEDred.sub
+SYMATTR ModelFile CRBK/leds.sub
 PIN 16 0 NONE 0
 PINATTR PinName +
 PINATTR SpiceOrder 1

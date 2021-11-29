@@ -12,9 +12,9 @@ WINDOW 3 24 64 Left 2
 SYMATTR Value D
 SYMATTR Prefix D
 SYMATTR Description Zener Diode
-PIN 16 0 NONE 0
-PINATTR PinName +
-PINATTR SpiceOrder 1
 PIN 16 64 NONE 0
-PINATTR PinName -
+PINATTR PinName K
 PINATTR SpiceOrder 2
+PIN 16 0 NONE 0
+PINATTR PinName A
+PINATTR SpiceOrder 1
