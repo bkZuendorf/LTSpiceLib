@@ -17,7 +17,7 @@ WINDOW 0 24 2 Left 2
 SYMATTR Prefix X
 SYMATTR Description Standard LEDs
 SYMATTR ModelFile CRBK/leds.sub
-SYMATTR SpiceModel StandardRed
+SYMATTR SpiceModel rot
 PIN 16 0 NONE 0
 PINATTR PinName +
 PINATTR SpiceOrder 1
