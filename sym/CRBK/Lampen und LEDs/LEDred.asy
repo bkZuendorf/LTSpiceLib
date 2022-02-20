@@ -19,7 +19,7 @@ SYMATTR Value rot
 SYMATTR Prefix X
 SYMATTR Description Rote Standard LED
 SYMATTR SpiceModel CRBK/leds.sub
-SYMATTR Value2 StandardRed
+SYMATTR Value2 rot
 PIN 16 0 NONE 0
 PINATTR PinName +
 PINATTR SpiceOrder 1

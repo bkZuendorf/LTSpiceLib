@@ -20,7 +20,7 @@ SYMATTR Value grün
 SYMATTR Prefix X
 SYMATTR Description Grüne Standard LED
 SYMATTR SpiceModel CRBK/leds.sub
-SYMATTR Value2 StandardGreen
+SYMATTR Value2 gruen
 PIN 16 0 NONE 0
 PINATTR PinName +
 PINATTR SpiceOrder 1

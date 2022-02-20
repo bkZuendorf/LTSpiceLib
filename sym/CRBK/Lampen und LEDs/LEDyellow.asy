@@ -19,7 +19,7 @@ SYMATTR Value gelb
 SYMATTR Prefix X
 SYMATTR Description Gelbe Standard LED
 SYMATTR SpiceModel CRBK/leds.sub
-SYMATTR Value2 StandardYellow
+SYMATTR Value2 gelb
 PIN 16 0 NONE 0
 PINATTR PinName +
 PINATTR SpiceOrder 1
