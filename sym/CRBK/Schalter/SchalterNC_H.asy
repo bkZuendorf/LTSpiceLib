@@ -5,7 +5,7 @@ LINE Normal -14 32 -14 32
 LINE Normal 30 32 30 11
 LINE Normal 35 14 -14 32
 LINE Normal 30 32 48 32
-WINDOW 0 37 1 Left 2
+WINDOW 0 8 2 Right 2
 SYMATTR Prefix S
 SYMATTR Description Schalter
 PIN 48 32 NONE 0

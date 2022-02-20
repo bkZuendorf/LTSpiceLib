@@ -15,7 +15,7 @@ LINE Normal 48 16 16 16
 LINE Normal 48 0 48 16
 WINDOW 0 56 32 Left 2
 WINDOW 3 56 72 Left 2
-SYMATTR Value irl3803
+SYMATTR Value IRL3803
 SYMATTR Prefix X
 SYMATTR Description N-Channel MOSFET transistor
 SYMATTR ModelFile CRBK\transistoren.lib
