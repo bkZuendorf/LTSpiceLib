@@ -1,0 +1,36 @@
+Version 4
+SymbolType CELL
+LINE Normal 0 -64 0 -80
+LINE Normal 0 -16 0 0
+LINE Normal -15 -61 0 -16
+LINE Normal 48 -64 48 -80
+LINE Normal 48 -16 48 0
+LINE Normal 33 -61 48 -16
+LINE Normal 96 -64 96 -80
+LINE Normal 96 -16 96 0
+LINE Normal 81 -61 96 -16
+LINE Normal 88 -39 -8 -39 1
+WINDOW 0 -16 -41 Right 2
+SYMATTR Prefix X
+SYMATTR Description Schalter
+SYMATTR ModelFile CRBK/Schalter/switches.sub
+SYMATTR SpiceModel VCC 0
+SYMATTR Value SwitchNO
+PIN 0 -80 NONE 0
+PINATTR PinName IN2
+PINATTR SpiceOrder 1
+PIN 0 0 NONE 0
+PINATTR PinName IN1
+PINATTR SpiceOrder 2
+PIN 48 -80 NONE 0
+PINATTR PinName IN3
+PINATTR SpiceOrder 3
+PIN 48 0 NONE 0
+PINATTR PinName IN4
+PINATTR SpiceOrder 4
+PIN 96 -80 NONE 0
+PINATTR PinName IN5
+PINATTR SpiceOrder 5
+PIN 96 0 NONE 0
+PINATTR PinName IN6
+PINATTR SpiceOrder 6
