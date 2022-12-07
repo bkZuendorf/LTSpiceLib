@@ -443,13 +443,14 @@ EOP 90 0 VALUE={PNOM*LEFCY*(V(10)-(273+TEMP))**4/(TFIL-(273+TEMP))**4}
 
 * Parameter List
 * --------------
-* Simple Lampe mit Bemessungsleistung
+* Simple Lampe mit Bemessungsspannung und Bemessungsleistung
 *
-* Parameters: PNOM
+* Parameters: U P
 
-.SUBCKT Lampe 1 2 
+.SUBCKT Lampe 1 2
++ UNOM={U} PNOM={P}
 *  
-.PARAM RNOM={230*230/PNOM}
+.PARAM RNOM={UNOM*UNOM/PNOM}
 *
 R1 1 2 {RNOM}
 .ends Lampe

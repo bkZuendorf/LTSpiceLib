@@ -1,21 +1,22 @@
 Version 4
 SymbolType CELL
-LINE Normal 33 32 48 32
-LINE Normal -14 32 -31 32
-LINE Normal -14 32 -14 32
-LINE Normal 30 17 -14 32
-LINE Normal 0 7 7 25
-LINE Normal 0 7 0 7
-LINE Normal -1 13 0 7
-LINE Normal 1 8 -1 13
-LINE Normal 5 10 1 8
-LINE Normal 5 10 5 10
-LINE Normal -1 13 5 10
-SYMATTR Prefix R
+LINE Normal 0 -65 0 -80
+LINE Normal 0 -18 0 -1
+LINE Normal 0 -18 0 -18
+LINE Normal -15 -62 0 -18
+LINE Normal -25 -32 -7 -39
+LINE Normal -25 -32 -25 -32
+LINE Normal -19 -31 -25 -32
+LINE Normal -24 -33 -19 -31
+LINE Normal -22 -37 -24 -33
+LINE Normal -22 -37 -22 -37
+LINE Normal -19 -31 -22 -37
+WINDOW 0 -36 -28 Right 2
+SYMATTR Prefix -F
 SYMATTR Value 1m
-PIN 48 32 NONE 0
+PIN 0 -80 NONE 0
 PINATTR PinName IN2
 PINATTR SpiceOrder 1
-PIN -32 32 NONE 0
+PIN 0 0 NONE 0
 PINATTR PinName IN1
 PINATTR SpiceOrder 2

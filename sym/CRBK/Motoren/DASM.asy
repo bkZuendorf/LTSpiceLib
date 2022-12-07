@@ -1,0 +1,25 @@
+Version 4
+SymbolType CELL
+LINE Normal -32 -15 -16 12
+LINE Normal 16 -15 16 2
+LINE Normal 64 -15 48 12
+CIRCLE Normal 72 114 -40 2
+TEXT 16 33 Center 2 M
+TEXT 17 65 Center 2 3~
+TEXT -27 -16 Left 0 U
+TEXT 21 -16 Left 0 V
+TEXT 69 -16 Left 0 W
+SYMATTR SpiceModel MOTOR_SIMPLE
+SYMATTR Value MOTOR_SIMPLE
+SYMATTR Prefix X
+SYMATTR Description Einfacher DC Motor
+SYMATTR ModelFile CRBK\motor.lib
+PIN -32 -16 NONE 8
+PINATTR PinName L+
+PINATTR SpiceOrder 1
+PIN 16 -16 NONE 8
+PINATTR PinName L+1
+PINATTR SpiceOrder 3
+PIN 64 -16 NONE 8
+PINATTR PinName L+2
+PINATTR SpiceOrder 4
