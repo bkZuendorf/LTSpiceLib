@@ -11,6 +11,10 @@ Lade das gesamte Paket herunter und überschreibe einen Teil der Inhalte der LTS
 ### Variante B - mit Git vebinden
 Installiere git und führe in der Kommandozeile folgende Befehle im Verzeichnis
 
+Mit der aktuellen LTSpice-Version:
+**C:\Users\\** *benutzer* **\AppData\Local\LTspice\lib**
+
+Mit älteren Versionen:
 **C:\Users\\** *benutzer* **\Documents\LTspiceXVII\lib**
 oder
 **C:\Users\\OneDrive\\** *benutzer* **\Documents\LTspiceXVII\lib**
