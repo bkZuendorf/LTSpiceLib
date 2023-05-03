@@ -14,7 +14,7 @@ WINDOW 0 48 0 Left 0
 SYMATTR Prefix X
 SYMATTR Description Generic Bi-directional Trigger Device symbol for use with a model that you supply
 SYMATTR SpiceModel DB3
-SYMATTR ModelFile CRBK/Thyristoren_Triacs_DIACs/Diac_st.lib
+SYMATTR ModelFile CRBK/ThyrTriacsDIACs/Diac_st.lib
 PIN 32 0 NONE 0
 PINATTR PinName DIAC_IN
 PINATTR SpiceOrder 1
