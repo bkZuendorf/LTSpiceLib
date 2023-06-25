@@ -12,7 +12,7 @@
 *Ibo:     Breakover current          
 C_C1         N02098 DIAC_OUT 1u IC=0   
 V_IDIAC1     DIAC_IN N01041 DC 0Vdc AC 0Vac 
-R_R1         N02098 TRG  1.462*{Tr}  
+R_R1         N02098 TRG { 1.462*{Tr} }
 D_D1         N06161 N01041 DZ19V 
 E_ABM1       TRG DIAC_OUT VALUE { IF(ABS(I(V_IDIAC1))>{Ibo},1,0)}    
 D_D2         N06161 N01060 DZ19V 

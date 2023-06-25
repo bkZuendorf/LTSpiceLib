@@ -17,13 +17,13 @@ LINE Normal 48 20 48 12
 RECTANGLE Normal 64 -65 -32 112
 CIRCLE Normal 29 -45 41 -33
 CIRCLE Normal 53 -45 41 -33
-SYMATTR SpiceModel level.2
+SYMATTR SpiceModel level4
 SYMATTR Prefix X
 SYMATTR Description Universal Opamp modell entspricht Modell der LTSpice Bibliothek nur DIN Symbol
 SYMATTR Value2 Avol=1Meg GBW=10Meg Slew=10Meg
-SYMATTR SpiceLine ilimit=25m rail=0 Vos=0 phimargin=45
-SYMATTR SpiceLine2 en=0 enk=0 in=0 ink=0 Rin=500Meg
-SYMATTR ModelFile UniversalOpamps2.sub
+SYMATTR SpiceLine Ilimit=25m Rail=0 Vos=0 Phimargin=45
+SYMATTR SpiceLine2 En=0 Enk=0 In=0 Ink=0 Rin=500Meg Ro=1k Ccm=1p Cdiff=2p
+SYMATTR ModelFile UniversalOpAmp4.lib
 PIN -48 96 NONE 0
 PINATTR PinName In+
 PINATTR SpiceOrder 1
