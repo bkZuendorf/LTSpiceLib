@@ -2,7 +2,7 @@
 
 Mit der LTSpiceLib werden Bibliothektsergänzungen für das Simulationsprogramm LTSpice für Schülerinnen und Schüler des Carl-Reuther Berufskollegs des Rhein-Sieg Kreises zur Verfügung gestellt.
 
-## Wie kriege ich die Bibliothek auf meinen Computer
+## Wie bekomme ich die Bibliothek auf meinen Computer?
 
 ### Variante A - kopieren
 Lade das gesamte Paket herunter und überschreibe einen Teil der Inhalte der LTSpice Bibliothek im Standardverzeichnis von LTSpice
