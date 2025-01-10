@@ -8,9 +8,9 @@ LINE Normal 0 79 0 96
 LINE Normal 0 -1 0 16
 CIRCLE Normal 32 80 -32 16
 WINDOW 0 49 31 Left 2
-WINDOW 3 103 62 Center 2
+WINDOW 3 50 50 Left 1
+SYMATTR Value Pn=60 Un=230
 SYMATTR SpiceModel Lampe
-SYMATTR Value Pnom=60
 SYMATTR Description Lampe im Bemessungsbetrieb
 SYMATTR Prefix X
 SYMATTR ModelFile CRBK\Lampen\Lamp.sub

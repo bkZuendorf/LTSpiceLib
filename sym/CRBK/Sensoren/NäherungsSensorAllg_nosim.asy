@@ -1,15 +1,15 @@
 Version 4
 SymbolType CELL
-LINE Normal -16 48 -48 80
-LINE Normal 16 80 -16 48
-LINE Normal -16 112 16 80
-LINE Normal -48 80 -16 112
-LINE Normal -27 59 -27 101
-LINE Normal -5 59 -5 101
-RECTANGLE Normal 112 128 -62 34
+LINE Normal 16 48 -16 80
+LINE Normal 48 80 16 48
+LINE Normal 16 112 48 80
+LINE Normal -16 80 16 112
+LINE Normal 5 59 5 101
+LINE Normal 27 59 27 101
+RECTANGLE Normal 112 128 -64 32
 TEXT 51 79 Left 2 OUT
-WINDOW 0 -60 16 Left 2
-WINDOW 3 -59 143 Left 2
+WINDOW 0 51 19 Left 2
+WINDOW 3 33 137 Left 2
 SYMATTR Value Sensor
 SYMATTR Description 8-bit parallel-in/serial-out shift register
 SYMATTR SpiceLine VCC=5  SPEED=1.0  TRIPDT=1e-9
@@ -18,3 +18,9 @@ SYMATTR SpiceModel VCC 0
 PIN 112 80 NONE 2
 PINATTR PinName D12
 PINATTR SpiceOrder 17
+PIN -32 32 TOP 8
+PINATTR PinName VCC
+PINATTR SpiceOrder 1
+PIN -32 128 BOTTOM 8
+PINATTR PinName GND
+PINATTR SpiceOrder 2
